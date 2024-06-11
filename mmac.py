@@ -19,10 +19,9 @@ kd =21
 kp =1
 
 # TODO: Switch to MMAC as soon as you implement it
-#controller = MMAController(Tp)
+controller = MMAController(Tp, kp, kd)
 # controller = FeedbackLinearizationController(Tp)
 # controller = DummyController(Tp)
-controller = MMAController(Tp, kp, kd)
 """
 Here you have some trajectory generators. You can use them to check your implementations.
 """
